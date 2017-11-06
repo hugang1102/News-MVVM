@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WeiboTableViewCell.h
 //  News-MVVM
 //
 //  Created by dev on 2017/11/4.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WeiboTableViewCell : UITableViewCell
+-(void)setDataModel:(id)data;
 
 @end
-
