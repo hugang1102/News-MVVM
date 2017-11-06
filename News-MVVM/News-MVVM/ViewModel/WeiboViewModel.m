@@ -24,7 +24,6 @@
         
     } WithFailureBlock:^{
         [self netFailure];
-        NSLog(@"请求");
         
     }];
 }

@@ -14,6 +14,7 @@
 
 #import "config.h"
 #import "NetworkEngine.h"
+#import "HUD.h"
 
 #import <AFNetworking/AFNetworking.h>
 #import <MBProgressHUD/MBProgressHUD.h>

@@ -46,6 +46,9 @@
 
 -(void)configData
 {
+    //HUD
+    [HUD showHUD];
+    
     WeiboViewModel *vm = [[WeiboViewModel alloc] init];
     [vm netWorkStateWithNetConnectBlock:^(BOOL netConnetState) {
         if (netConnetState) {
@@ -60,13 +63,17 @@
         self.dataArray = returnValue;
         
         dispatch_async(dispatch_get_main_queue(), ^{
+            [HUD hideHUD];
             [self.tableView reloadData];
         });
         
     } WithErrorBlock:^(id errorCode) {
-        
+
+        [HUD showHUDWithMsg:[NSString stringWithFormat:@"%@",errorCode]];
+        [HUD hideHUD];
     } WithFailureBlock:^{
-        
+        [HUD showHUDWithMsg:@"请求失败"];
+        [HUD hideHUD];
     }];
     
     [vm fetchPublicWeiBo];

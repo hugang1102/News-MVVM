@@ -20,6 +20,7 @@
 		D724BAB41FADB80300C30C7C /* ViewModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D724BAB31FADB80300C30C7C /* ViewModelBase.m */; };
 		D724BAB71FADB8F000C30C7C /* WeiboViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D724BAB61FADB8F000C30C7C /* WeiboViewModel.m */; };
 		D724BABA1FADBB1400C30C7C /* WeiboReqModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D724BAB91FADBB1400C30C7C /* WeiboReqModel.m */; };
+		D724BABD1FB0554C00C30C7C /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D724BABC1FB0554C00C30C7C /* HUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		D724BAB61FADB8F000C30C7C /* WeiboViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboViewModel.m; sourceTree = "<group>"; };
 		D724BAB81FADBB1400C30C7C /* WeiboReqModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboReqModel.h; sourceTree = "<group>"; };
 		D724BAB91FADBB1400C30C7C /* WeiboReqModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboReqModel.m; sourceTree = "<group>"; };
+		D724BABB1FB0554C00C30C7C /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		D724BABC1FB0554C00C30C7C /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 			children = (
 				D724BAAC1FADAE0700C30C7C /* NetworkEngine.h */,
 				D724BAAD1FADAE0700C30C7C /* NetworkEngine.m */,
+				D724BABB1FB0554C00C30C7C /* HUD.h */,
+				D724BABC1FB0554C00C30C7C /* HUD.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				D724BAAE1FADAE0700C30C7C /* NetworkEngine.m in Sources */,
 				D724BA8D1FAD9DFB00C30C7C /* AppDelegate.m in Sources */,
 				D724BA8A1FAD9DFB00C30C7C /* main.m in Sources */,
+				D724BABD1FB0554C00C30C7C /* HUD.m in Sources */,
 				D724BAB71FADB8F000C30C7C /* WeiboViewModel.m in Sources */,
 				D724BABA1FADBB1400C30C7C /* WeiboReqModel.m in Sources */,
 				D724BAB11FADB1C300C30C7C /* WeiboListModel.m in Sources */,
